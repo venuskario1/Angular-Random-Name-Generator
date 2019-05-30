@@ -1,0 +1,26 @@
+.wrapper{
+    background: url('https://source.unsplash.com/random/800x805') no-repeat center center;
+    display:grid;
+    border: 2px solid #f76707;
+    border-radius: 5px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.wrapper > div {
+    border: 2px solid #ffa94d;
+    border-radius: 5px;
+    background-color: #ffd8a8;
+    padding: 1em;
+    color: #d9480f;
+}
+
+.wrapper > div:hover{
+    opacity: 0.3;
+}
+
+
+.wrapper div p{
+    color:white;
+    font-weight: 900;
+    text-align: center;
+}
